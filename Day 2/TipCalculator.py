@@ -13,6 +13,9 @@ total_bill = bill + total_tip_amout
 bill_per_person = total_bill / people
 finaly_bill = round(bill_per_person, 2)
 
+# finaly_bill = "{:2f}".format(bill_per_person)    
+# when can also use this when we want to round to two decimal places without the scenario of getting one decimal place.
+
 
 # FAQ: How to round to 2 decimal places?
 
